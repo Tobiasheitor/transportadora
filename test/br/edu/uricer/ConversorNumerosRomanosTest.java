@@ -90,6 +90,7 @@ public class ConversorNumerosRomanosTest {
         assertEquals(9, conversor.converter("IX"));
     }    
     
+    // deve converter I para 1 como String
     @Test
     public void deveConverterIpara1ComoString() {
         assertEquals(1, conversor.converter("I"));
