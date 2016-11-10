@@ -2,8 +2,8 @@ package transportadora.model;
 
 
 public class Caminhao {
-   String modelo;
-   double capacidade;
+   private String modelo;
+   private double capacidade;
 
     public String getModelo() {
         return modelo;
